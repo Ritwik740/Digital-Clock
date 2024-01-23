@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+#clock {
+    font-size: 3em;
+    background-color: blue;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+pre{
+    text-align: center;
+    color: white;
+}
+.fontClass{
+    font-family: "Rubik Burned", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#footer{
+    
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px;
+}
+a{
+    color: white;
+}
